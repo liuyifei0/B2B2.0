@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>跨境采购</title>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="fontIcom/iconfont.css"/>
+	</head>
+	<body class="purchase">
+		<div class="purchase_box">
+			<div class="title_text">
+				委托采购计划下单
+			</div>
+			<div class="content_box">
+				<ul class="content_box_ul">
+					<li class="content_box_ul_li margin_left content_active niurou">牛羊肉</li>
+					<li class="content_box_ul_li shuichan">水产品</li>
+				</ul>
+				
+				<div class="content_qiehuan1">
+					<p class="content_qie_title">
+						<span class="content_qie_span">HScode编码</span>
+						<label for="HScode">
+							<input type="radio" name="HScode" id="HScode1" value="0" /> <span>有</span>
+							<input class="content_wu_radio" type="radio" name="HScode" id="" value="1" /> <span>无</span>
+						</label>
+					</p>
+					<div class="table_height">
+						<table class="content_teble_box" cellpadding="0" cellspacing="0" border="0">
+							<tr class="first_tr">
+								<td colspan="4"></td>
+								<td>单价(万元)</td>
+								<td>数量</td>
+								<td>价格(万元)</td>
+								<td>操作</td>
+							</tr>
+							<tr class="sed_tr">
+								<td class="width160 pad_left20">
+									<div class="mar_top6">
+										<div class="mar_bom6">HScode编码</div>
+										<select name="">
+											<option value="">请选择</option>
+											<option value="">6234-2</option>
+										</select>
+									</div>
+								</td>
+								<td class="width160 pad_left20">
+									<div class="mar_top6">
+										<div class="mar_bom6">中文品名</div>
+										<select name="">
+											<option value="">请选择</option>
+										</select>
+									</div>
+								</td>
+								<td class="width160 pad_left20">
+									<div class="mar_top6">
+										<div class="mar_bom6">英文品名</div>
+										<select name="">
+											<option value="">请选择</option>
+										</select>
+									</div>
+								</td>
+								<td class="width160 pad_left20">
+									<div class="mar_top6">
+										<div class="mar_bom6">品类</div>
+										<select name="">
+											<option value="">请选择</option>
+										</select>
+									</div>
+								</td>
+								<td class="text_center width75">
+									1
+								</td>
+								<td class="text_center width95">
+									<span class="icon_font rect_w icon-iconmianxingshujujian"></span>
+									<span class="width30 dis_line">0kg</span>
+									<span class="icon_font rect_w icon-add"></span>
+								</td>
+								<td class="text_center width65">
+									<span>0</span><span>万元</span>
+								</td>
+								<td class="text_center width75">
+									<span class="icon_font shanchu_ico icon-icon_delete"></span>
+								</td>
+								
+							</tr>
+							
+							
+						</table>
+					</div>
+					<div class="zongjia_bom_box">
+						<div class="float_right">
+							共<span class="color_58">10</span>批产品<span class="color_58"> 1200</span>kg&nbsp;&nbsp;&nbsp;&nbsp;合计:<span class="color_58 font_size20">1500</span>万元
+						</div>
+					</div>
+					<div class="add_box">
+						<div class="add_midden">
+							<span class="icon_font text_center"><i class="icon-add icon_font" ></i> 增加品类</span>
+						</div>
+					</div>
+					<div class="centent_btm_box">
+						<div class="centent_first_tr">填写信息</div>
+						<table class="centent_btm_tab" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<td class="width210">
+									<span>原产地</span>
+									<input type="text" name="" id="" value="大连" />
+								</td>
+								<td class="width210">
+									<span>厂号</span>
+									<input type="text" name="" id="" value="内蒙古" />
+								</td>
+								<td class="width210">
+									<span>贸易方式</span>
+									<select name="">
+										<option value="">请选择</option>
+									</select>
+								</td>
+								<td class="width210">
+									<span>币种</span>
+									<select name="">
+										<option value="">请选择</option>
+									</select>
+								</td>
+								
+							</tr>
+							
+							<tr>
+								<td class="width210">
+									<span>目的港</span>
+									<select name="">
+										<option value="">请选择</option>
+									</select>
+								</td>
+								<td class="width210">
+									<span>供应商</span>
+									<select name="">
+										<option value="">请选择</option>
+									</select>
+								</td>
+								<td class="width210">
+									<span>支付方式</span>
+									<select name="">
+										<option value="">请选择</option>
+									</select>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<span>是否融资</span>
+									<label for="">
+									<input class="table_radio radio_qiehuan1" type="radio" name="rongzi" id="" value="1"  /><span class="font_size14">是</span>
+									<input class="table_radio radio_qiehuan2" type="radio" name="rongzi" id="" value="2" checked="checked"/><span class="font_size14">否</span>
+									</label>
+								</td>
+							</tr>
+							<tr class="rongzi_tr1 vis_none">
+								<td class="width210">
+									<span>融资比例</span>
+									<input type="text" name="" id="" value="" placeholder="请填写"/>
+								</td>
+								<td class="width210 pos_weizhi">
+									<span>融资金额</span>
+									<input type="text" name="" id="" value="" />
+									<span class="position_wanyuan">万元</span>
+								</td>
+							</tr>
+							<tr>
+								<td class="width680 padd_btmno" colspan="3">
+									<div class="beizhu">备注</div>
+									<textarea class="content_textarea" name="" rows="" cols=""></textarea>
+								</td>
+							</tr>
+						</table>
+					</div>
+					
+					<div class="btn_mid_box">
+						<button>确认</button>
+					</div>
+				</div>
+				
+				
+				<div class="content_qiehuan2 dis_none">
+					<p class="content_qie_title">
+						<span class="content_qie_span">HScode编码</span>
+						<label for="HScode">
+							<input type="radio" name="HScode" id="HScode1" value="0" /> <span>有</span>
+							<input class="content_wu_radio" type="radio" name="HScode" id="" value="1" /> <span>无</span>
+						</label>
+					</p>
+					<div class="table_height">
+						<table class="content_teble_box" cellpadding="0" cellspacing="0" border="0">
+							<tr class="first_tr">
+								<td colspan="5"></td>
+								<td>单价(万元)</td>
+								<td>数量</td>
+								<td>价格(万元)</td>
+								<td>操作</td>
+							</tr>
+							<tr class="sed_tr">
+								<td class="width160 pad_left20">
+									<div class="mar_top6">
+										<div class="mar_bom6">品类</div>
+										<select name="">
+											<option value="">请选择</option>
+											<option value="">6234-2</option>
+										</select>
+									</div>
+								</td>
+								<td class="width160 ">
+									<div class="mar_top6">
+										<div class="mar_bom6 font_color_fff">中文品名</div>
+										<select name="">
+											<option value="">请选择</option>
+										</select>
+									</div>
+								</td>
+								<td class="width160 pad_left10">
+									<div class="mar_top6">
+										<div class="mar_bom6 font_color_fff">英文品名</div>
+										<select name="">
+											<option value="">请选择</option>
+										</select>
+									</div>
+								</td>
+								<td class="width100" >
+									<div class="mar_top6">
+										<div class="mar_bom6 font_color_fff">品类</div>
+										<select name="" class="width90">
+											<option value="">请选择</option>
+										</select>
+									</div>
+								</td>
+								<td class="width100" >
+									<div class="mar_top6">
+										<div class="mar_bom6 font_color_fff">品类</div>
+										<input class="sed_inp" type="text" name="" id="" value="" placeholder="请输入" />
+									</div>
+								</td>
+								<td class="text_center width65" >
+									1
+								</td>
+								<td class="text_center width95">
+									<span class="icon_font rect_w icon-iconmianxingshujujian"></span>
+									<span class="width30 dis_line">0kg</span>
+									<span class="icon_font rect_w icon-add"></span>
+								</td>
+								<td class="text_center width65">
+									<span>0</span><span>万元</span>
+								</td>
+								<td class="text_center width75">
+									<span class="icon_font shanchu_ico icon-icon_delete"></span>
+								</td>
+							</tr>
+							
+							
+						</table>
+					</div>
+					<div class="zongjia_bom_box">
+						<div class="float_right">
+							共<span class="color_58">10</span>批产品<span class="color_58"> 1200</span>kg&nbsp;&nbsp;&nbsp;&nbsp;合计:<span class="color_58 font_size20">1500</span>万元
+						</div>
+					</div>
+					<div class="add_box">
+						<div class="add_midden">
+							<span class=" text_center"><i class="icon-add icon_font" ></i> 增加品类</span>
+						</div>
+					</div>
+					<div class="centent_btm_box">
+						<div class="centent_first_tr">填写信息</div>
+						<table class="centent_btm_tab width730" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<td class="width95">
+									<span>原产地</span>
+									<input type="text" name="" id="" value="大连" />
+								</td>
+								
+								<td class="width95">
+									<span>币种</span>
+									<select name="">
+										<option value="">请选择</option>
+									</select>
+								</td>
+								<td class="width95">
+									<span>供应商</span>
+									<select name="">
+										<option value="">请选择</option>
+									</select>
+								</td>
+							</tr>
+							
+							<tr>
+								<td class="width95">
+									<span>目的港</span>
+									<select name="">
+										<option value="">请选择</option>
+									</select>
+								</td>
+								<td class="width95">
+									<span>支付方式</span>
+									<select name="">
+										<option value="">请选择</option>
+									</select>
+								</td>
+								<td class="width95">
+									<span>贸易方式</span>
+									<select name="">
+										<option value="">请选择</option>
+									</select>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<span>是否融资</span>
+									<label for="">
+									<input class="table_radio radio_qiehuan3" type="radio" name="rongzi2" id="" value="0"  /><span class="font_size14">是</span>
+									<input class="table_radio radio_qiehuan4" type="radio" name="rongzi2" id="" value="1" checked="checked"/><span class="font_size14">否</span>
+									</label>
+								</td>
+							</tr>
+							<tr class="rongzi_tr2 vis_none">
+								<td class="width95">
+									<span>融资比例</span>
+									<input type="text" name="" id="" value="" placeholder="请填写"/>
+								</td>
+								<td class="width95 pos_weizhi">
+									<span>融资金额</span>
+									<input type="text" name="" id="" value="" />
+									<span class="position_wanyuan">万元</span>
+								</td>
+							</tr>
+							<tr>
+								<td class="width95" colspan="3">
+									<div class="beizhu">备注</div>
+									<textarea class="content_textarea" name="" rows="" cols=""></textarea>
+								</td>
+							</tr>
+						</table>
+					</div>
+					
+					<div class="btn_mid_box">
+						<button>确认</button>
+					</div>
+				</div>
+				
+				
+			</div>
+		</div>
+	</body>
+	<script src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/purchase.js"></script>
+</html>
